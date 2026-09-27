@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Schoolbell";
+    src: url(./Schoolbell-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    height: 130px;
+    background-image: url(./decor.png);
+    background-color: #08546C;
+    padding: 45px 200px;
+}
+
+.company-name {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Inter";
+    color: #FFFFFF;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+    margin-left: 271px;
+    margin-top: 5px;
+}
+
+.navigation a {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #A1B5BB;
+}
+
+.a1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-button {
+    width: 140px;
+    height: 58px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 100px;
+    background-color: #145E76;
+    padding: 15px 35px;
+    margin-left: 206px;
+    margin-top: -11px;
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Inter";
+    color: #FFFFFF;
+}
+
+.text_services {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Schoolbell";
+    color: #265A6A;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.service-title {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #08546C;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 20px;
+}
+
+.icards {
+    display: flex;
+    gap: 26px;
+    margin-left: 174px;
+    margin-top: 70px;
+}
+
+.icard {
+    width: 273px;
+    height: 251px;
+    background-color: #FFFFFF;
+    padding: 30px 28px 34px 30px;
+    box-shadow: 10px 10px 33.42px #00000032;
+    transition: 0.7s;
+}
+
+.icard:hover {
+    background-color: #08546C;
+}
+
+.icard:hover h1 {
+    color: #FFFFFF;
+}
+
+.icard:hover p {
+    color: #B2BBBD;
+}
+
+.inside-circle {
+    position: absolute;
+    margin-left: -39px;
+    margin-top: 15px;
+}
+
+.icard-name {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    line-height: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.icard-info {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #696969;
+}
+
+.icard1 {
+    width: 273px;
+    height: 251px;
+    background-color: #08546C;
+    padding: 30px 28px 34px 30px;
+    box-shadow: 10px 10px 33.42px #00000032;
+    transition: 0.7s;
+}
+
+.icard-name1 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #FFFFFF;
+    line-height: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#section2 {
+    margin-top: 200px;
+}
+
+.icard-info1 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #B2BBBD;
+}
+
+.title1 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #08546C;
+    line-height: 56.25px;
+    text-align: center;
+}
+
+.title1-info {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #757575;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    margin-left: 174px;
+    margin-top: 60px;
+}
+
+.card {
+    width: 515px;
+    height: 600px;
+}
+
+.card-name {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "inter";
+    color: #08546C;
+    line-height: 28.8px;
+    margin-top: 40px;
+}
+
+.card-info {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #757575;
+    line-height: 25.6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter";
+    color: #08546C;
+    line-height: 25.6px;
+}
+
+.read-more img {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.read-more:hover {
+    color: #FFA800;
+}
